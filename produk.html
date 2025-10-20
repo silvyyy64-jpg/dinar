@@ -1,37 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<title>Produk Kami</title>
+    <meta charset="UTF-8">
+    <title>Produk Kami - B-MART</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        img {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100px;
+            height: auto;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-<h1>Daftar Produk</h1>
-<table border="1">
-<tr>
-<th>Gambar</th>
-<th>Nama Produk</th>
-<th>Harga</th>
-</tr>
-<tr>
-<td><img src="beras.jpg" width="100"></td>
-<td>Beras 5 Kg</td>
-<td>Rp 65.000</td>
-</tr>
-<tr>
-<td><img src="gula.jpg" width="100"></td>
-<td>Gula Pasir 1 Kg</td>
-<td>Rp 15.000</td>
-</tr>
-<tr>
-<td><img src="minyak.jpg" width="100"></td>
-<td>Minyak Goreng 2 Liter</td>
-<td>Rp 35.000</td>
-</tr>
-</table>
-<nav>
-<a href="index.html">Beranda</a> |
-<a href="tentang.html">Tentang Kami</a> |
-<a href="produk.html">Produk</a> |
-<a href="kontak.html">Kontak</a>
-</nav>
+
+    <header>
+        <h1>Produk Kami</h1>
+        <p>Temukan kebutuhan harianmu di B-MART</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="produk.html">Produk</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <main>
+        <h2>Daftar Produk</h2>
+        <table>
+            <tr>
+                <th>Gambar</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td><img src="beras.jpg" alt="Beras 5 Kg"></td>
+                <td>Beras 5 Kg</td>
+                <td>Rp 65.000</td>
+            </tr>
+            <tr>
+                <td><img src="gula.jpg" alt="Gula Pasir 1 Kg"></td>
+                <td>Gula Pasir 1 Kg</td>
+                <td>Rp 15.000</td>
+            </tr>
+            <tr>
+                <td><img src="minyak.jpg" alt="Minyak Goreng 2 Liter"></td>
+                <td>Minyak Goreng 2 Liter</td>
+                <td>Rp 35.000</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        &copy; 2025 B-MART. Semua hak dilindungi.
+    </footer>
+
 </body>
 </html>
